@@ -16,6 +16,9 @@
 	</script>
 {/if}
 
+<svelte:head>
+	<title>Mari Bersinergi, Sukseskan Pendataan UMKM demi Indonesia Maju!</title>
+</svelte:head>
 <!--  -->
 <h1>Mari Bersinergi, Sukseskan Pendataan UMKM demi Indonesia Maju!</h1>
 <p>Bersama Wujudkan UMKM Tangguh, Sukseskan Pendataan Nasional!</p>
@@ -148,6 +151,12 @@
 		</select>
 	</label>
 	<Turnstile siteKey={PUBLIC_CF_TURNSTILE_SITE_KEY} />
+	<br />
+	<div align="left">
+		<input type="checkbox" id="consent" name="consent" required />
+		<label for="consent">Saya setuju untuk membagikan data saya dengan formulir ini.</label>
+	</div>
+	<br />
 	<button type="submit">Kirim</button>
 </form>
 
