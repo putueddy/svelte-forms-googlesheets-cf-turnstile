@@ -54,43 +54,43 @@
 		<select id="provinsi" name="provinsi" required>
 			<option value="">Pilih provinsi</option>
 			<option value="Aceh">Nanggroe Aceh Darussalam</option>
-			<option value="SumateraUtara">Sumatera Utara</option>
-			<option value="SumateraSelatan">Sumatera Selatan</option>
-			<option value="SumateraBarat">Sumatera Barat</option>
+			<option value="Sumatera Utara">Sumatera Utara</option>
+			<option value="Sumatera Selatan">Sumatera Selatan</option>
+			<option value="Sumatera Barat">Sumatera Barat</option>
 			<option value="Bengkulu">Bengkulu</option>
 			<option value="Riau">Riau</option>
-			<option value="KepulauanRiau">Kepulauan Riau</option>
+			<option value="Kepulauan Riau">Kepulauan Riau</option>
 			<option value="Jambi">Jambi</option>
 			<option value="Lampung">Lampung</option>
-			<option value="BangkaBelitung">Bangka Belitung</option>
-			<option value="KalimantanBarat">Kalimantan Barat</option>
-			<option value="KalimantanTimur">Kalimantan Timur</option>
-			<option value="KalimantanSelatan">Kalimantan Selatan</option>
-			<option value="KalimantanTengah">Kalimantan Tengah</option>
-			<option value="KalimantanUtara">Kalimantan Utara</option>
+			<option value="Bangka Belitung">Bangka Belitung</option>
+			<option value="Kalimantan Barat">Kalimantan Barat</option>
+			<option value="Kalimantan Timur">Kalimantan Timur</option>
+			<option value="Kalimantan Selatan">Kalimantan Selatan</option>
+			<option value="Kalimantan Tengah">Kalimantan Tengah</option>
+			<option value="Kalimantan Utara">Kalimantan Utara</option>
 			<option value="Banten">Banten</option>
-			<option value="DKIJakarta">DKI Jakarta</option>
-			<option value="JawaBarat">Jawa Barat</option>
-			<option value="JawaTengah">Jawa Tengah</option>
+			<option value="DKI Jakarta">DKI Jakarta</option>
+			<option value="Jawa Barat">Jawa Barat</option>
+			<option value="Jawa Tengah">Jawa Tengah</option>
 			<option value="Yogyakarta">Daerah Istimewa Yogyakarta</option>
-			<option value="JawaTimur">Jawa Timur</option>
+			<option value="Jawa Timur">Jawa Timur</option>
 			<option value="Bali">Bali</option>
-			<option value="NusaTenggaraTimur">Nusa Tenggara Timur</option>
-			<option value="NusaTenggaraBarat">Nusa Tenggara Barat</option>
+			<option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+			<option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
 			<option value="Gorontalo">Gorontalo</option>
-			<option value="SulawesiBarat">Sulawesi Barat</option>
-			<option value="SulawesiTengah">Sulawesi Tengah</option>
-			<option value="SulawesiUtara">Sulawesi Utara</option>
-			<option value="SulawesiTenggara">Sulawesi Tenggara</option>
-			<option value="SulawesiSelatan">Sulawesi Selatan</option>
-			<option value="MalukuUtara">Maluku Utara</option>
+			<option value="Sulawesi Barat">Sulawesi Barat</option>
+			<option value="Sulawesi Tengah">Sulawesi Tengah</option>
+			<option value="Sulawesi Utara">Sulawesi Utara</option>
+			<option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+			<option value="Sulawesi Selatan">Sulawesi Selatan</option>
+			<option value="Maluku Utara">Maluku Utara</option>
 			<option value="Maluku">Maluku</option>
-			<option value="PapuaBarat">Papua Barat</option>
+			<option value="Papua Barat">Papua Barat</option>
 			<option value="Papua">Papua</option>
-			<option value="PapuaTengah">Papua Tengah</option>
-			<option value="PapuaPegunungan">Papua Pegunungan</option>
-			<option value="PapuaSelatan">Papua Selatan</option>
-			<option value="PapuaBaratDaya">Papua Barat Daya</option>
+			<option value="Papua Tengah">Papua Tengah</option>
+			<option value="Papua Pegunungan">Papua Pegunungan</option>
+			<option value="Papua Selatan">Papua Selatan</option>
+			<option value="Papua Barat Daya">Papua Barat Daya</option>
 		</select>
 	</label>
 	<label for="kab_kota">
@@ -106,7 +106,7 @@
 		<input id="kodepos" name="kodepos" type="number" required />
 	</label>
 	<label for="list_kbli">
-		Nomer KBLI (pisahkan dengan koma)
+		Nomer KBLI (pisahkan dengan <strong>garis miring</strong>)
 		<input id="list_kbli" name="list_kbli" type="text" />
 	</label>
 	<label for="kategori">
