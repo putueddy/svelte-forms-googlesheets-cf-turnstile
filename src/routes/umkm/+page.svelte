@@ -25,35 +25,35 @@
 
 <form method="POST">
 	<label for="nama_pic">
-		Nama Penanggung Jawab
+		Nama Penanggung Jawab *)
 		<input id="nama_pic" name="nama_pic" type="text" required />
 	</label>
 	<label for="nik">
-		NIK
+		NIK *)
 		<input id="nik" name="nik" type="number" required />
 	</label>
 	<label for="email">
-		Email
+		Email *)
 		<input id="email" name="email" type="email" required />
 	</label>
 	<label for="telp">
-		No Telp
+		No Telp *)
 		<input id="telp" name="telp" type="number" required />
 	</label>
 	<label for="alamat_pic">
-		Alamat sesuai KTP
+		Alamat sesuai KTP *)
 		<textarea id="alamat_pic" name="alamat_pic" required></textarea>
 	</label>
 	<label for="nama_usaha">
-		Nama Perusahaan
+		Nama Perusahaan *)
 		<input id="nama_usaha" name="nama_usaha" type="text" required />
 	</label>
 	<label for="alamat_usaha">
-		Alamat Perusahaan
+		Alamat Perusahaan *)
 		<textarea id="alamat_usaha" name="alamat_usaha" required></textarea>
 	</label>
 	<label for="provinsi">
-		Provinsi
+		Provinsi *)
 		<select id="provinsi" name="provinsi" required>
 			<option value="">Pilih provinsi</option>
 			<option value="Aceh">Nanggroe Aceh Darussalam</option>
@@ -97,15 +97,15 @@
 		</select>
 	</label>
 	<label for="kab_kota">
-		Kabupaten/Kota
+		Kabupaten/Kota *)
 		<input id="kab_kota" name="kab_kota" type="text" required />
 	</label>
 	<label for="kecamatan">
-		Kecamatan
+		Kecamatan *)
 		<input id="kecamatan" name="kecamatan" type="text" required />
 	</label>
 	<label for="kodepos">
-		Kodepos
+		Kodepos *)
 		<input id="kodepos" name="kodepos" type="number" required />
 	</label>
 	<label for="list_kbli">
@@ -113,7 +113,7 @@
 		<input id="list_kbli" name="list_kbli" type="text" />
 	</label>
 	<label for="kategori_usaha">
-		Kategori Usaha
+		Kategori Usaha *)
 		<select id="kategori_usaha" name="kategori_usaha" required>
 			<option value="">Pilih kategori usaha</option>
 			<option value="UsahaIndustri">Usaha Industri</option>
@@ -154,7 +154,7 @@
 	<br />
 	<div align="left">
 		<input type="checkbox" id="consent" name="consent" required />
-		<label for="consent">Saya setuju untuk membagikan data saya dengan formulir ini.</label>
+		<label for="consent">Saya setuju untuk membagikan data saya dengan formulir ini. *)</label>
 	</div>
 	<br />
 	<button type="submit">Kirim</button>
