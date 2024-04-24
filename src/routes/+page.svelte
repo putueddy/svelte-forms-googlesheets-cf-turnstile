@@ -52,7 +52,7 @@
 	<label for="provinsi">
 		Provinsi
 		<select id="provinsi" name="provinsi" required>
-			<option value="">Please select a province</option>
+			<option value="">Pilih provinsi</option>
 			<option value="Aceh">Nanggroe Aceh Darussalam</option>
 			<option value="SumateraUtara">Sumatera Utara</option>
 			<option value="SumateraSelatan">Sumatera Selatan</option>
@@ -112,13 +112,11 @@
 	<label for="kategori">
 		Kategori Usaha
 		<select id="kategori" name="kategori" required>
-			<option value="">Please select a business sector</option>
+			<option value="">Pilih kategori usaha</option>
 			<option value="Usaha Industri">Usaha Industri</option>
 			<option
 				value="Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
-				Remediasi"
-				>Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
-				Remediasi</option
+				Remediasi">Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah</option
 			>
 			<option value="Real Estate">Real Estate</option>
 			<option value="Pertanian, Kehutanan dan Perikanan">Pertanian, Kehutanan dan Perikanan</option>
@@ -143,8 +141,7 @@
 			<option
 				value="Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
 				dan Penunjang Usaha Lainnya"
-				>Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
-				dan Penunjang Usaha Lainnya</option
+				>Aktivitas Penyewaan, Ketenagakerjaan, Agen Perjalanan dan Penunjang Usaha</option
 			>
 			<option value="Aktivitas Keuangan dan Asuransi">Aktivitas Keuangan dan Asuransi</option>
 			<option value="Aktivitas Kesehatan Manusia dan Aktivitas Sosial"
