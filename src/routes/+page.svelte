@@ -107,7 +107,7 @@
 	</label>
 	<label for="list_kbli">
 		Nomer KBLI (pisahkan dengan koma)
-		<input id="list_kbli" name="list_kbli" type="text" required />
+		<input id="list_kbli" name="list_kbli" type="text" />
 	</label>
 	<label for="kategori">
 		Kategori Usaha
