@@ -42,7 +42,7 @@
 		<textarea id="alamat_pic" name="alamat_pic" required></textarea>
 	</label>
 	<label for="nama_usaha">
-		Nama Penanggung Jawab
+		Nama Perusahaan
 		<input id="nama_usaha" name="nama_usaha" type="text" required />
 	</label>
 	<label for="alamat_usaha">
@@ -51,7 +51,7 @@
 	</label>
 	<label for="provinsi">
 		Provinsi
-		<select id="provinsi" name="provinsi">
+		<select id="provinsi" name="provinsi" required>
 			<option value="">Please select a province</option>
 			<option value="Aceh">Nanggroe Aceh Darussalam</option>
 			<option value="SumateraUtara">Sumatera Utara</option>
@@ -111,7 +111,47 @@
 	</label>
 	<label for="kategori">
 		Kategori Usaha
-		<input id="kategori" name="kategori" type="text" required />
+		<select id="kategori" name="kategori" required>
+			<option value="">Please select a business sector</option>
+			<option value="Usaha Industri">Usaha Industri</option>
+			<option
+				value="Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
+				Remediasi"
+				>Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
+				Remediasi</option
+			>
+			<option value="Real Estate">Real Estate</option>
+			<option value="Pertanian, Kehutanan dan Perikanan">Pertanian, Kehutanan dan Perikanan</option>
+			<option value="Pertambangan dan Penggalian">Pertambangan dan Penggalian</option>
+			<option value="Perdagangan Besar dan Eceran">Perdagangan Besar dan Eceran</option>
+			<option value="Penyediaan Akomodasi dan Penyediaan Makan Minum"
+				>Penyediaan Akomodasi dan Penyediaan Makan Minum</option
+			>
+			<option value="Pengangkutan dan Pergudangan">Pengangkutan dan Pergudangan</option>
+			<option value="Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin"
+				>Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin</option
+			>
+			<option value="Pendidikan">Pendidikan</option>
+			<option value="Konstruksi">Konstruksi</option>
+			<option value="Kesenian, Hiburan dan Rekreasi">Kesenian, Hiburan dan Rekreasi</option>
+			<option value="Informasi dan Komunikasi">Informasi dan Komunikasi</option>
+			<option value="Industri Pengolahan">Industri Pengolahan</option>
+			<option value="Aktivitas Sosial Tanpa Akomodasi">Aktivitas Sosial Tanpa Akomodasi</option>
+			<option value="Aktivitas Profesional, Ilmiah dan Teknis"
+				>Aktivitas Profesional, Ilmiah dan Teknis</option
+			>
+			<option
+				value="Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
+				dan Penunjang Usaha Lainnya"
+				>Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
+				dan Penunjang Usaha Lainnya</option
+			>
+			<option value="Aktivitas Keuangan dan Asuransi">Aktivitas Keuangan dan Asuransi</option>
+			<option value="Aktivitas Kesehatan Manusia dan Aktivitas Sosial"
+				>Aktivitas Kesehatan Manusia dan Aktivitas Sosial</option
+			>
+			<option value="Aktivitas Jasa Lainnya">Aktivitas Jasa Lainnya</option>
+		</select>
 	</label>
 	<Turnstile siteKey={PUBLIC_CF_TURNSTILE_SITE_KEY} />
 	<button type="submit">Kirim</button>
