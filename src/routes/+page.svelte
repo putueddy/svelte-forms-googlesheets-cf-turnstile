@@ -1,6 +1,9 @@
 <script>
 	import { PUBLIC_CF_TURNSTILE_SITE_KEY } from '$env/static/public';
 	import { Turnstile } from 'svelte-turnstile';
+
+	/** @type {import('./$types').ActionData} */
+	export let form;
 </script>
 
 {#if form?.error}
