@@ -109,45 +109,42 @@
 		Nomer KBLI (pisahkan dengan <strong>garis miring</strong>)
 		<input id="list_kbli" name="list_kbli" type="text" />
 	</label>
-	<label for="kategori">
+	<label for="kategori_usaha">
 		Kategori Usaha
-		<select id="kategori" name="kategori" required>
+		<select id="kategori_usaha" name="kategori_usaha" required>
 			<option value="">Pilih kategori usaha</option>
-			<option value="Usaha Industri">Usaha Industri</option>
-			<option
-				value="Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
-				Remediasi">Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah</option
+			<option value="UsahaIndustri">Usaha Industri</option>
+			<option value="TreatmentAirWasteWater"
+				>Treatment Air, Treatment Air Limbah, Treatment dan Pemulihan Material Sampah, dan Aktivitas
+				Remediasi</option
 			>
-			<option value="Real Estate">Real Estate</option>
-			<option value="Pertanian, Kehutanan dan Perikanan">Pertanian, Kehutanan dan Perikanan</option>
-			<option value="Pertambangan dan Penggalian">Pertambangan dan Penggalian</option>
-			<option value="Perdagangan Besar dan Eceran">Perdagangan Besar dan Eceran</option>
-			<option value="Penyediaan Akomodasi dan Penyediaan Makan Minum"
-				>Penyediaan Akomodasi dan Penyediaan Makan Minum</option
-			>
-			<option value="Pengangkutan dan Pergudangan">Pengangkutan dan Pergudangan</option>
-			<option value="Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin"
+			<option value="RealEstate">Real Estate</option>
+			<option value="PertanianKehutananPerikanan">Pertanian, Kehutanan dan Perikanan</option>
+			<option value="PertambanganPenggalian">Pertambangan dan Penggalian</option>
+			<option value="PerdaganganBesarEceran">Perdagangan Besar dan Eceran</option>
+			<option value="AkomodasiMakanMinum">Penyediaan Akomodasi dan Penyediaan Makan Minum</option>
+			<option value="PengangkutanPergudangan">Pengangkutan dan Pergudangan</option>
+			<option value="ListrikGasUapAirPanasUdaraDingin"
 				>Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin</option
 			>
 			<option value="Pendidikan">Pendidikan</option>
 			<option value="Konstruksi">Konstruksi</option>
-			<option value="Kesenian, Hiburan dan Rekreasi">Kesenian, Hiburan dan Rekreasi</option>
-			<option value="Informasi dan Komunikasi">Informasi dan Komunikasi</option>
-			<option value="Industri Pengolahan">Industri Pengolahan</option>
-			<option value="Aktivitas Sosial Tanpa Akomodasi">Aktivitas Sosial Tanpa Akomodasi</option>
-			<option value="Aktivitas Profesional, Ilmiah dan Teknis"
+			<option value="KesenianHiburanRekreasi">Kesenian, Hiburan dan Rekreasi</option>
+			<option value="InformasiKomunikasi">Informasi dan Komunikasi</option>
+			<option value="IndustriPengolahan">Industri Pengolahan</option>
+			<option value="AktivitasSosialTanpaAkomodasi">Aktivitas Sosial Tanpa Akomodasi</option>
+			<option value="AktivitasProfesionalIlmiahTeknis"
 				>Aktivitas Profesional, Ilmiah dan Teknis</option
 			>
-			<option
-				value="Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
-				dan Penunjang Usaha Lainnya"
-				>Aktivitas Penyewaan, Ketenagakerjaan, Agen Perjalanan dan Penunjang Usaha</option
+			<option value="PenyewaanSewaGunaUsaha"
+				>Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan
+				dan Penunjang Usaha Lainnya</option
 			>
-			<option value="Aktivitas Keuangan dan Asuransi">Aktivitas Keuangan dan Asuransi</option>
-			<option value="Aktivitas Kesehatan Manusia dan Aktivitas Sosial"
+			<option value="AktivitasKeuanganAsuransi">Aktivitas Keuangan dan Asuransi</option>
+			<option value="AktivitasKesehatanManusiaAktivitasSosial"
 				>Aktivitas Kesehatan Manusia dan Aktivitas Sosial</option
 			>
-			<option value="Aktivitas Jasa Lainnya">Aktivitas Jasa Lainnya</option>
+			<option value="AktivitasJasaLainnya">Aktivitas Jasa Lainnya</option>
 		</select>
 	</label>
 	<Turnstile siteKey={PUBLIC_CF_TURNSTILE_SITE_KEY} />
